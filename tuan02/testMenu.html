@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{margin: 0px auto;
+                padding: 0px;
+            }
+        .wrapper{
+            height: 800px;
+            width: 900px;
+            background-color: antiquewhite;
+            border: 1px solid black;
+        }
+        .header{
+            height: 150px;
+            width: 900px;
+            background-color: rgb(230, 191, 140);
+            border-bottom: 1px solid black;
+            position: relative;
+        }
+        .nav{
+            height: 52px;
+            width: 900px;
+            background-color: rgb(154, 121, 77);
+            border-bottom: 1px solid black;
+        }
+        .content{
+            height: 500px;
+            width: 900px;
+            background-color: rgb(248, 175, 79);
+            border-bottom: 1px solid black;
+        }
+        .footer{
+            height: 96px;
+            width: 900px;
+            background-color: rgb(120, 72, 10);
+            border-bottom: 1px solid black;
+        }
+        .header .p1{
+            font-size: 40px;
+            color: rgb(120, 72, 10);
+            position: absolute;
+            top: 80px;
+            left: 40px;
+            text-shadow: rgb(71, 67, 59) 10px 10px 2px;
+            position: absolute;
+        }
+        .p1:hover{
+            color: aqua;
+
+        }
+        .header .p2{
+            font-size: 40px;
+            color: rgb(120, 72, 10);
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            text-shadow: rgb(71, 67, 59) 10px 10px 2px;
+        }
+        .menu li{
+            height: 52px;
+            width: 120px;
+            background-color: rgb(120, 74, 13);
+            line-height: 50px;
+            text-indent: 20px;
+            float: left;
+            list-style-type: none;
+            position: relative;
+            border-radius: 5px;
+        }
+        .p2:hover{
+            color: aqua;
+        }
+        li:hover>a{
+            color: rgb(167, 8, 8);
+            font-style: oblique;
+        }
+        .menu li:hover{
+            background-color: rgb(220, 174, 8);
+        }
+        li a{
+            color: rgb(242, 203, 9);
+            font-size: x-large;
+            text-decoration: none;
+        }
+        .menu li:hover >.sub-menu{
+            display: block;
+        }
+        .menu li .sub-menu li .sub-menu{
+            display: none;
+        }
+        .menu li .sub-menu{
+            position: absolute;
+            display: none;
+        }
+        .menu li .sub-menu li:hover .sub-menu{
+            display: block;
+            top: 0px;
+            left: 120px;
+        }
+        .clear{
+            clear: both;
+        }
+        .header .p3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="../img/images (1).jpg" alt="" srcset="" width ="900px" height="150px">
+            <p class="p3">
+                <img src="../img/download.png" alt="" srcset="" width="120px" height="120px">
+            </p>
+            <p class="p1">Khoa CNTT</p>
+            <p class="p2">Trung tam tin hoc</p>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="">Home</a>
+                    <ul class="sub-menu">
+                        <li><a href="">Setting</a></li>
+                        <li><a href="">Account</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Log in</a></li>
+                                <li><a href="">Log out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Service</a>
+                    <ul class="sub-menu">
+                        <li><a href="">4G</a></li>
+                        <li><a href="">Tag Game</a></li>
+                        <li><a href="">TV</a>
+                            <ul class="sub-menu">
+                                <li><a href="">FPT</a></li>
+                                <li><a href="">CAB</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="aside"></div>
+            <div class="section"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
