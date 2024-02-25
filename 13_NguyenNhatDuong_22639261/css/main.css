@@ -1,0 +1,190 @@
+.wrapper {
+    height: 100%;
+    width: 960px;
+    background-color: rgba(181, 216, 98, 0.473);
+    margin: 0px auto;
+    padding: 0px;
+    border: 1px solid black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.edit {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(251, 152, 249, 0.473);
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.menu {
+    list-style-type: none; /* Loại bỏ kiểu danh sách */
+    padding: 0;
+    position: absolute; 
+    top: 30%;
+}
+
+.menu li {
+    display: inline; /* Hiển thị các mục trên cùng một dòng */
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 10px 15px; /* Padding: trên, phải, dưới, trái */
+    border: none;
+    line-height: 30px;
+    color: blue;
+}
+.menu li a:hover {
+    color: yellow;
+}
+.header {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(216, 153, 98, 0.473);
+    border-bottom: 1px solid black;
+    
+}
+.content{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(98, 100, 216, 0.473);
+    border-bottom: 1px solid black;
+}
+.footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100px;
+    width: 100%;
+
+}
+.section{
+    height: 500px;
+    width: 70%;
+    background-color: rgba(155, 237, 253, 0.473);
+    border-bottom: 1px solid black;
+    float: left;
+    
+}
+.aside{
+    height: 500px;
+    width: 30%;
+    background-color: rgb(248, 248, 251);
+    border-bottom: 1px solid black;
+    float: right;
+}
+.search-box {
+    text-align: right; /* Căn phải */
+    position: absolute; 
+    color: red;
+    top: 40%;
+    left: 60%;
+}
+
+.search-box span {
+    font-weight: bold;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.search-box button {
+    padding: 5px 5px;
+    color: white;
+    background-color: blue;
+}
+h2.section-title {
+    color: red; /* Đặt màu chữ là đỏ */
+    text-align: center;
+    background-color: rgba(155, 237, 253, 0.473);
+
+}
+.sect{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(155, 237, 253, 0.473);
+
+
+}
+.sec1{
+    height: 430px;
+    width: 50%;
+    background-color: rgba(155, 237, 253, 0.473);
+
+    float: left;
+}
+.sec2{
+    height: 430px;
+    width: 50%;
+    background-color: rgba(155, 237, 253, 0.473);
+    position: relative;
+    float: right;
+}
+.paragraph {
+    font-size: 20px; 
+    text-align: center
+}
+form {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    width: 290px; 
+}
+
+label {
+    display: block; 
+}
+
+input[type="text"], input[type="radio"] {
+    margin-bottom: 10px; 
+}
+.radio-group {
+    display: inline-block; 
+}
+.radio-group label {
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.radio-group input[type="radio"] {
+    display: inline-block; 
+    margin-right: 5px; 
+}
+.info-text {
+    position: absolute;
+    top: -20px; 
+    left: 10px; 
+    background-color: rgba(155, 237, 253, 0.473);
+    padding: 0 10px; 
+}
+.sec2 form input[type="reset"] {
+    margin-left: 70px; 
+}
+.aside {
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+}
+
+.aside h3 {
+    color: red; /* Đổi màu chữ thành đỏ */
+    border-bottom: 1px dotted black;
+}
+
+.aside img {
+    display: block; /* Đảm bảo hình ảnh hiển thị làm khối */
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+.footer .left-text {
+    float: left;
+}
+
+.footer .right-text {
+    float: right;
+}
