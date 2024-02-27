@@ -1,0 +1,44 @@
+.wrapper {
+    height: auto;
+    width: 600px;
+    background-color: blanchedalmond;
+    margin: 0px auto;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.edit {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.header {
+    height: 50px;
+    width: 600px;
+    background-color: rgb(255, 153, 0);
+    border-bottom: 1px solid black;
+}
+
+.content {
+    height: auto;
+    width: 600px;
+    background-color: blanchedalmond;
+}
+
+.section {
+    height: auto;
+    width: 600px;
+    background-color: blanchedalmond;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    height: 50px;
+    width: 600px;
+    background-color: rgb(255, 153, 0);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
